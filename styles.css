@@ -490,6 +490,12 @@ button:hover {
   font-size: 4vmax;
   align-self: center;
   text-align: center;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 195, 112, 1) 0%,
+    rgba(27, 153, 197, 1) 100% );
+    -webkit-background-clip: text;
+    color: transparent;
 }
 footer {
   background-color: black;
